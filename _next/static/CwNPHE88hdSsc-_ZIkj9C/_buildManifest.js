@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/car-scrolling-app//_next/:path+",
+        "destination": "/car-scrolling-app/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
